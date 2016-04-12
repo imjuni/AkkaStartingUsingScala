@@ -4,7 +4,7 @@ name := """AkkaStartingUsingScala"""
 version := "1.0"
 scalaVersion := "2.11.7"
 
-mainClass in Compile := Some("com.akkastarting.chapter5.Ch5Main")
+mainClass in Compile := Some("com.akkastarting.chapter6.Ch6Main")
 
 // Change this to another test framework if you prefer
 libraryDependencies ++= Seq(
@@ -18,5 +18,3 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-cluster-tools" % akkaVersion,
   "com.typesafe.akka" %% "akka-multi-node-testkit" % akkaVersion
 )
-
-
