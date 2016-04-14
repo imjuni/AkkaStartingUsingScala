@@ -4,7 +4,7 @@ name := """AkkaStartingUsingScala"""
 version := "1.0"
 scalaVersion := "2.11.7"
 
-mainClass in Compile := Some("com.akkastarting.chapter6.Ch6Main")
+mainClass in Compile := Some("com.akkastarting.chapter7.Ch7BlockingMain")
 
 // Change this to another test framework if you prefer
 libraryDependencies ++= Seq(
